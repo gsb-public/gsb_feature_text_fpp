@@ -1,8 +1,10 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the GSB Feature Text FPP feature.
  */
+
+include_once 'gsb_feature_text_fpp.features.inc';
 
 /**
  * Implements hook_entity_alter().
@@ -22,4 +24,3 @@ function gsb_feature_text_fpp_entity_info_alter(&$entity_info) {
     ),
   );
 }
-
