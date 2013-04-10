@@ -12,6 +12,6 @@ features[ctools][] = strongarm:strongarm:1
 features[defaultconfig][] = strongarm:field_bundle_settings_fieldable_panels_pane__text
 features[features_api][] = api:1
 features[field][] = fieldable_panels_pane-text-field_body
-features[field][] = fieldable_panels_pane-text-field_tile
+features[field][] = fieldable_panels_pane-text-field_title
 features[variable][] = field_bundle_settings_fieldable_panels_pane__text
 features_exclude[dependencies][defaultconfig] = defaultconfig
