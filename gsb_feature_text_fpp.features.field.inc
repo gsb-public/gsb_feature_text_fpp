@@ -143,7 +143,7 @@ function gsb_feature_text_fpp_field_default_fields() {
       'ds_extras_field_template' => '',
       'entity_type' => 'fieldable_panels_pane',
       'field_name' => 'field_title',
-      'label' => 'Tile',
+      'label' => 'Title',
       'required' => 1,
       'settings' => array(
         'linkit' => array(
@@ -171,7 +171,7 @@ function gsb_feature_text_fpp_field_default_fields() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
-  t('Tile');
+  t('Title');
 
   return $fields;
 }
