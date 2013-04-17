@@ -30,19 +30,6 @@ function gsb_feature_text_fpp_ds_field_settings_info() {
         ),
       ),
     ),
-    'field_tile' => array(
-      'formatter_settings' => array(
-        'ft' => array(
-          'func' => 'theme_ds_field_expert',
-          'ow' => TRUE,
-          'ow-el' => 'div',
-          'ow-cl' => '',
-          'ow-def-cl' => TRUE,
-          'ow-at' => '',
-          'ow-def-at' => FALSE,
-        ),
-      ),
-    ),
   );
   $export['fieldable_panels_pane|text|default'] = $ds_fieldsetting;
 
@@ -65,12 +52,12 @@ function gsb_feature_text_fpp_ds_layout_settings_info() {
   $ds_layout->settings = array(
     'regions' => array(
       'ds_content' => array(
-        0 => 'field_tile',
+        0 => 'field_title',
         1 => 'field_body',
       ),
     ),
     'fields' => array(
-      'field_tile' => 'ds_content',
+      'field_title' => 'ds_content',
       'field_body' => 'ds_content',
     ),
     'classes' => array(),

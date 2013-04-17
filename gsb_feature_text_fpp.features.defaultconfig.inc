@@ -39,6 +39,12 @@ function gsb_feature_text_fpp_defaultconfig_strongarm() {
       'megamenu' => array(
         'custom_settings' => FALSE,
       ),
+      'diff_standard' => array(
+        'custom_settings' => FALSE,
+      ),
+      'people_fpp' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
