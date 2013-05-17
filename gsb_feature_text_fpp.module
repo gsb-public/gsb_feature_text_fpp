@@ -24,3 +24,13 @@ function gsb_feature_text_fpp_entity_info_alter(&$entity_info) {
     ),
   );
 }
+/**
+ * Implements template_preprocess_fieldable_panels_pane()
+ */
+function gsb_feature_text_fpp_preprocess_fieldable_panels_pane (&$variables) {
+  if ($variables['elements']['#bundle'] == 'text') {
+    $wrapper = entity_metadata_wrapper($variables['elements']['#entity_type'], $variables['elements']['#element']);
+    // Determine the Links style and set corresponding style class for pane.
+    $variables['classes_array'][] = $wrapper->field_text_style->value();
+  }
+}
