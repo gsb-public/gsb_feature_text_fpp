@@ -93,7 +93,7 @@ function gsb_feature_text_fpp_field_default_field_instances() {
     'entity_type' => 'fieldable_panels_pane',
     'field_name' => 'field_text_style',
     'label' => 'Style',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
