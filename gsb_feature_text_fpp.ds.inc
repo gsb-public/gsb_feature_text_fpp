@@ -52,11 +52,13 @@ function gsb_feature_text_fpp_ds_layout_settings_info() {
   $ds_layout->settings = array(
     'regions' => array(
       'ds_content' => array(
-        0 => 'field_title',
-        1 => 'field_body',
+        0 => 'group_wrapper_style',
+        1 => 'field_title',
+        2 => 'field_body',
       ),
     ),
     'fields' => array(
+      'group_wrapper_style' => 'ds_content',
       'field_title' => 'ds_content',
       'field_body' => 'ds_content',
     ),
@@ -67,6 +69,8 @@ function gsb_feature_text_fpp_ds_layout_settings_info() {
     'layout_wrapper' => 'div',
     'layout_attributes' => '',
     'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
   );
   $export['fieldable_panels_pane|text|default'] = $ds_layout;
 
