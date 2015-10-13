@@ -30,7 +30,8 @@ function gsb_feature_text_fpp_field_group_info() {
     'format_settings' => array(
       'label' => 'Style wrapper',
       'instance_settings' => array(
-        'classes' => '',
+        'id' => '',
+        'classes' => 'group-wrapper-style',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',
